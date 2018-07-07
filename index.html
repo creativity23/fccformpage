@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <title>Many Forms of Gaming Survey</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1 id="title">Many Forms of Gaming</h1>
+  </header>
+
+  <div>
+    <p id="description">Gaming is something that almost everyone does. Whether it be face to face or online. For some, gaming is a way to relax and get away from problems ailing them. For others, it is a job and a way to make money (while also having fun). Gaming is a great way to get friends and family together and can range from the simple tic-tac-toe to a console game like Overwatch. The purpose of this form is purely for demonstration purposes, but I am interested in the types of gaming that you do and what games you play. </p>
+  </div>
+<br>
+<fieldset>
+  <legend>Basic Information</legend>
+  <form id="survey-form" action="" method="POST">
+    <label id="name-label" for="name">Name:</label>
+    <input id="name" type="text" name="name" placeholder="First Name" required>
+    <br>
+    <label id="email-label" for="email">Email:</label>
+    <input id="email" type="email" name="email" placeholder="Email Address" pattern="[a-zA-Z]{3,}[.]{1}[a-zA-Z]{2,}" required>
+    <br>
+    <label id="number-label" for="number">How old are you?</label>
+    <input id="number" type="number" name="number" placeholder="Age" min="10" max="150">
+    <br>
+    <label id="pronoun-label">What are your pronouns?</label>
+    <select id="dropdown" name="pronouns">
+      <option value="they">They/Them</option>
+      <option value="she">She/Her</option>
+      <option value="he">He/Him</option>
+      <option value="other">Other</option>
+    </select>
+    <br>
+    <label id="pronoun-label">If you chose other, what pronouns do you use?</label>
+    <input id="other" type="text" name="other" placeholder="Pronouns">
+  </form>
+</fieldset>
+<br>
+<fieldset>
+  <legend>Gaming and You</legend>
+  <form id="survey-form" action="" method="POST">
+    <p>Do you play games for fun, professionally, or both?</p>
+      <label>
+        <input id="why" type="radio" name="why" class="radio" value="fun">
+        I play games for fun.
+      </label>
+      <br>
+      <label>
+        <input id="why" type="radio" name="why" class="radio" value="work">
+        I play games for work.
+      </label>
+      <br>
+      <label>
+        <input id="why" type="radio" name="why" class="radio" value="both">
+        I play games for work and for fun.
+      </label>
+      <br>
+      <br>
+    <p>What types of games do you play?</p>
+    <label>
+        <input id="types" type="checkbox" name="types" value="party">
+      Party Games (drinking games, guessing games, etc.)</label>
+      <br>
+    <label>
+      <input id="types" type="checkbox" name="types" value="tabletop">
+    Tabletop Games (card games, board games, etc.)</label>
+    <br>
+    <label>
+        <input id="types" type="checkbox" name="types" value="video">
+      Video Games</label>
+    <br>
+    <br>
+    <p>What genre of games do you play?</p>
+    <label>
+        <input id="genre" type="checkbox" name="genre" value="1">
+        Action Games</label>
+    <br>
+    <label>
+        <input id="genre" type="checkbox" name="genre" value="2">
+        Adventure Games</label>
+    <br>
+    <label>
+        <input id="genre" type="checkbox" name="genre" value="3">
+        Platform Games</label>
+    <br>
+    <label>
+        <input id="genre" type="checkbox" name="genre" value="4">
+        Fighting Games</label>
+    <br>
+    <label>
+        <input id="genre" type="checkbox" name="genre" value="5">
+        First-person Shooters</label>
+    <br>
+    <label>
+        <input id="genre" type="checkbox" name="genre" value="6">
+        Strategy Games</label>
+    <br>
+    <label>
+        <input id="genre" type="checkbox" name="genre" value="7">
+        Role Playing Games</label>
+    <br>
+    <label>
+        <input id="genre" type="checkbox" name="genre" value="8">
+        Horror Games</label>
+    <br>
+    <label>
+        <input id="genre" type="checkbox" name="genre" value="9">
+        Survival Games</label>
+    <br>
+    <label>
+        <input id="genre" type="checkbox" name="genre" value="10">
+        Simulation Games</label>
+    <br>
+    <label>
+        <input id="genre" type="checkbox" name="genre" value="11">
+      Mystery Games</label>
+    <br>
+    <label>
+        <input id="genre" type="checkbox" name="genre" value="12">
+        Massive Multiplayer Online Games</label>
+    <br>
+    <label>
+        <input id="genre" type="checkbox" name="genre" value="13">
+        Other</label>
+  <br>
+  <br>
+  <p>What is your favorite game? If you don't have one or cannot think of it, type &quot;N/A&quot; in the space provided.</p>
+  <textarea placeholder="Type your response here."></textarea>
+  <br>
+  <p>Tell me about your most memorable time playing a game. If you don't have one or cannot think of it, type &quot;N/A&quot; in the space provided.</p>
+  <textarea placeholder="Type your response here."></textarea>
+  <br>
+  <p>Didn't see a question that you think should be in the survey? Type it below.</p>
+  <textarea placeholder="Type your response here."></textarea>
+  <br>
+  <input id="submit" type="submit" value="Submit">
+  </form>
+</fieldset>
+</body>
+</html>

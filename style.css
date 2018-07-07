@@ -1,0 +1,42 @@
+body{
+    background-color: #363732;
+    color: #DCE1E9;
+    padding: 0.1in 0.1in 0.1in 0.1in;
+    line-height: 0.3in;
+  }
+  #title {
+    text-align: center;
+    color: #66C3FF;
+  }
+  #survey-form {
+    padding: 0.1in 0.1in 0.1in 0.1in;
+  }
+  #name-label {
+    color: #D4AFB9;
+  }
+  #email-label {
+    color: #D4AFB9;
+  }
+  #number-label {
+    color: #D4AFB9;
+  }
+  #pronoun-label {
+    color: #D4AFB9;
+  }
+  form p {
+    color: #D4AFB9;
+  }
+  legend {
+    color: #66C3FF;
+  }
+  textarea {
+    width: 3in;
+    height: 1in;
+  }
+  #genre {
+    
+  }
+  #submit {
+    width: .7in;
+    float: right;
+  }
